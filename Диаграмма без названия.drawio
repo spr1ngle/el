@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T14:53:57.941Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 OPR/99.0.0.0" etag="-eYWzDavC0DzDmw84x31" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T15:26:57.568Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 OPR/99.0.0.0" etag="jeCj7DdDUAiXBNCoaOCx" version="21.3.6" type="github">
   <diagram name="Страница 1" id="zSze2OofJTrVx-L_bqg2">
-    <mxGraphModel dx="2466" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1491" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -174,6 +174,133 @@
         </mxCell>
         <mxCell id="zmcopD96sghGadIHIDG5-47" value="Артем" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-250" y="1769.9952941176473" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-52" target="zmcopD96sghGadIHIDG5-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1515" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-52" value="Старт программы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="120" width="290" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-54" target="zmcopD96sghGadIHIDG5-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1515" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-54" value="Введите число игроков(1-4)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="360" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-56" target="zmcopD96sghGadIHIDG5-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1515" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-56" value="Введите имя игрока" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="450" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-58" target="zmcopD96sghGadIHIDG5-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-58" target="zmcopD96sghGadIHIDG5-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1710" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-58" value="Выберите режим игры&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="530" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-60" target="zmcopD96sghGadIHIDG5-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-60" value="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-62" target="zmcopD96sghGadIHIDG5-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1750" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-62" value="2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-65" target="zmcopD96sghGadIHIDG5-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-65" value="Кто первый дойдет до 100 очков" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-67" target="zmcopD96sghGadIHIDG5-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-67" target="zmcopD96sghGadIHIDG5-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1830" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-67" value="Кто первый угадает слово полностью" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-68" target="zmcopD96sghGadIHIDG5-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1515" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-68" value="Ваш выбор" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1455" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-72" target="zmcopD96sghGadIHIDG5-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1515" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-72" value="Начало игры ход первого игрока, ход второго игрока" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1455" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-74" target="zmcopD96sghGadIHIDG5-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1515" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-74" value="Угадал слово умножение очков на 4&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1455" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1515" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-76" value="Не угадал слово обнуление счета&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1455" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-79" value="Угадал букву&amp;nbsp; +10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1455" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-80" target="zmcopD96sghGadIHIDG5-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-80" value="Дошел до тысячи очков&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-82" value="Конец игры победа игрока(имя)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-84" value="Победа игрока(имя)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-85" value="Первый угадал слово&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="965" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

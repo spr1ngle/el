@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T14:22:53.640Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 OPR/99.0.0.0" etag="3KpGzWpv-tGhtjmRlgQh" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T14:53:57.941Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 OPR/99.0.0.0" etag="-eYWzDavC0DzDmw84x31" version="21.3.6" type="github">
   <diagram name="Страница 1" id="zSze2OofJTrVx-L_bqg2">
-    <mxGraphModel dx="397" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2466" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,6 +22,11 @@
             <mxPoint x="305" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-3" target="zmcopD96sghGadIHIDG5-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zmcopD96sghGadIHIDG5-3" value="Подключение библиотек" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="180" width="290" height="130" as="geometry" />
         </mxCell>
@@ -33,6 +38,9 @@
             <mxPoint x="305" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.573;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-9" target="zmcopD96sghGadIHIDG5-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zmcopD96sghGadIHIDG5-9" value="Задаем константность MAX_PLAYERS=4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="420" width="290" height="180" as="geometry" />
         </mxCell>
@@ -41,12 +49,20 @@
             <mxPoint x="305" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-11" target="zmcopD96sghGadIHIDG5-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zmcopD96sghGadIHIDG5-11" value="Создаем функцию&amp;nbsp;displayBoard она&amp;nbsp;&lt;br&gt;будет отвечать за вид программы&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="680" width="290" height="170" as="geometry" />
         </mxCell>
         <mxCell id="zmcopD96sghGadIHIDG5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-13" target="zmcopD96sghGadIHIDG5-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="305" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-13" target="zmcopD96sghGadIHIDG5-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zmcopD96sghGadIHIDG5-13" value="Создаем функцию&amp;nbsp;isWordGuessed она будет проверять были ли угаданы все буквы в слове&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -60,6 +76,11 @@
         <mxCell id="zmcopD96sghGadIHIDG5-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-16" target="zmcopD96sghGadIHIDG5-25">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="310" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zmcopD96sghGadIHIDG5-16" value="Создаем функцию&amp;nbsp;chooseWord в ней будут храниться и случайно выбираться слова для разгадывания&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -81,7 +102,12 @@
             <mxPoint x="310.0000000000001" y="1700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zmcopD96sghGadIHIDG5-25" value="Создаем функцию&amp;nbsp;&amp;nbsp;playToScore она будет отвечать за режимы, за ходьбу игроков, очередь кто будет ходить, будет проверять угадал ли ты слово и за финальный счет , очки игроков&amp;nbsp;&lt;br&gt;(Это основная функция программы)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zmcopD96sghGadIHIDG5-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-25" target="zmcopD96sghGadIHIDG5-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="1550.2352941176473" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-25" value="Создаем функцию&amp;nbsp;&amp;nbsp;playToScore она будет отвечать за режимы, за ходьбу&amp;nbsp; игроков, очередь кто будет ходить, будет проверять угадал ли ты слово и за финальный счет , очки игроков и будет&amp;nbsp; показывать текущий счет игрока&lt;br&gt;(Это основная функция программы)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="1460" width="300" height="180" as="geometry" />
         </mxCell>
         <mxCell id="zmcopD96sghGadIHIDG5-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-27" target="zmcopD96sghGadIHIDG5-29">
@@ -93,6 +119,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="310.0000000000001" y="1890" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-27" target="zmcopD96sghGadIHIDG5-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zmcopD96sghGadIHIDG5-27" value="теперь переходи&amp;nbsp; к int main()&lt;br&gt;Делаем так чтобы текс можно было писать на кирилице и программа отображала его,&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="1670" width="300" height="150" as="geometry" />
@@ -110,6 +139,11 @@
             <mxPoint x="310.0000000000001" y="2040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-180" y="1829.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zmcopD96sghGadIHIDG5-31" value="Объявляем переменную- int gamemode;&lt;br&gt;которая будет хранить выбранный режим игры." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="1860" width="280" height="120" as="geometry" />
         </mxCell>
@@ -121,11 +155,25 @@
             <mxPoint x="310.0000000000001" y="2200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-200" y="1839.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zmcopD96sghGadIHIDG5-35" value="А дальше уже если игрок выбра1 - то играют кто первый наберет 1000очков, если 2 -то кто первый угадает слова и если человек захочет ввести 3 или все числа кроме 1 и 2 то программа выпишет Некорректный выбор режима игры." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="2010" width="280" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zmcopD96sghGadIHIDG5-37" target="zmcopD96sghGadIHIDG5-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zmcopD96sghGadIHIDG5-37" value="Конец программы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="2170" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-41" value="Глеб" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcopD96sghGadIHIDG5-47" value="Артем" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="1769.9952941176473" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
